@@ -19,15 +19,22 @@ section {
 }
 
 header {
-  width: 100%;
+  width: 95%;
   padding: 50px;
   position: fixed;
+  background-color: white;
 }
 
 .header-footer-hr {
-    margin: auto;
-    width: 100%;
-    
+  margin: auto;
+  width: 100%;
+}
+
+.footer {
+  padding: 50px;
+  height: 50vh;
+  display: flex;
+  flex-flow: column;
 }
 
 hr {
@@ -42,11 +49,11 @@ hr {
 }
 
 .time-div {
-    display: flex;
-    flex-flow: column;
-    gap: 15px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
   position: fixed;
-  top: 150px;
+  top: 125px;
   left: 100px;
   color: black;
   padding: 10px;
